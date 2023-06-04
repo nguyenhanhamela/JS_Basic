@@ -12,3 +12,12 @@ date.getHours(),
 date.getMinutes(),
 date.getSeconds(),
 date.getMilliseconds());
+
+// set Date method
+let d = new Date()
+d.setFullYear(1996)
+console.log(d);
+
+d.setMonth(13)
+console.log(d);
+d.setDate()

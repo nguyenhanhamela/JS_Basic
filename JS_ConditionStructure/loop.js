@@ -21,8 +21,3 @@ if (count == 2){
     console.log("n la so nguyen to");
 } else console.log("n khong la so nguyen to");
 
-
-const n = 7;
-let check = true;
-for (let i = 1; i < n; i++) 
-    if ()
