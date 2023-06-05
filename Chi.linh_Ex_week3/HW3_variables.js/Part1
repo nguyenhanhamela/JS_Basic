@@ -1,0 +1,42 @@
+//Part 1 gồm: Bài 1-7
+
+//Bài 1
+var fruitName = 'Orange';
+
+//Bài 2
+var y = 50;
+
+// Bài 3
+console.log(3+10);
+
+// Bài 4
+var z = 'x + y'
+console.log("z=",z)
+
+//Bài 5
+var firstName = 'my', lastName = 'name', age = 30;
+console.log(firstName, lastName, age);
+
+// Bài 6: Có 3 loại khai báo biến trong JS (var, let, const)
+//6.1
+var language1 = "Japanese"
+console.log(language1);
+//6.2
+let language2 = "English"
+if (true){
+    let language2 = 'say Hello'
+    console.log(language2);
+}
+console.log(language2);
+//6.3
+const pi = 3.14;
+console.log(pi);
+
+//Bài 7: mô tả data_type của biến
+let length = 16; //  number
+let lastName = "nguyen"; //  string
+let x = { 
+	firstName: "Nick", 
+	lastName: "Doe" 
+}; // objects
+

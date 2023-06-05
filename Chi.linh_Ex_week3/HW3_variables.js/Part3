@@ -1,0 +1,44 @@
+//Part 3: Bài 10-11
+
+//Bài 10: Biến nào được đặt tên đúng?
+
+var 123 = 40; // sai (không bắt đầu bằng số)
+
+var *aa = 250; //sai 
+
+var _x_1 = 7; // đúng
+
+var _value = "test"; // đúng
+
+//Bài 11: 
+
+var description = "simply dummy text of the printing "
+
+//11.a Tìm kiếm chuỗi
+console.log(description.indexOf('of'));
+console.log(description.lastIndexOf('the'));
+
+//11.b Cắt chuỗi
+console.log("Chuỗi cần lấy là: " + description.slice(0,11));
+
+//11.c Thay thế
+console.log(description.replace('dummy',''));
+
+//11.d Chữ hoa, chữ thường 
+console.log("Kết quả in hoa là: " + description.toUpperCase());
+
+//Viết hoa chữ cái đầu của chuỗi:
+let result = description.charAt(0).toUpperCase() + description.slice(1);
+console.log("Viết hoa chữ cái đầu của chuỗi: " + result);
+
+//11.e Nối chuỗi:
+//Khai báo chuỗi:  var title = "example" 
+//Nối chuỗi trên với chuỗi vừa khai báo	 
+
+var title = "example" 
+var result2 = description.concat(title)
+console.log("Kết quả nối chuỗi là: " + result2);
+
+
+
+

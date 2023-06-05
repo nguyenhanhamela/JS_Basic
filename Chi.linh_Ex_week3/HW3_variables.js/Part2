@@ -1,0 +1,23 @@
+//Part 2: gồm bài 8-9
+
+//Bài 8: X là biến local do x được khai báo trong funnction localFunc(), biến nafy chỉ hoạt động trong function localFunc
+function localFunc() { 
+
+    var x = 10; //local variable   
+  
+    console.log(x); //10   
+  
+  } 
+  
+  localFunc(); 
+// Bài 9: globalVar là biến cục bộ vì nó khai báo ở ngoài cùng, k nằm trong hàm nào cả
+var globalVar = "some val"; //global variable            
+
+function globalFunc() { 
+
+  console.log(globalVar); //global variable , result  is "some val" 
+
+} 
+
+globalFunc(); 
+

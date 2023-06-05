@@ -1,0 +1,62 @@
+//90% dùng for, còn lại dùng while, do..while
+//Vd: while (đã viết while thì sẽ viết câu lệnh để thay đổi giá trị của biến, ng mới dùng thường quên viết biểu thức này)
+let x = 10;
+while (x<=10)
+{
+    console.log(x)
+    x+=1 
+}
+//VD: do while ()
+let x = 3;
+{
+    console.log(x)
+    x+1
+}
+
+//For: (++ tương đương với +=1)
+//Ưu điểm: biết được nó chạy bao nhiêu lần, nếu k biết chạy bn lần thì dùng while, luôn bắt buộc có biểu thức điều kiện
+For (let i=1; i<=10; i++)
+console.log(i)
+
+//VD2
+let i = 3;
+For(...;i<=10;...)
+console.log(i)
+
+//VD3: tính tổng các số lẻ từ 1, 100
+let  sum = 0;
+for(let i=1;i<=100;i++)// cách 1
+if (i%2==1)
+sum = sum + i
+for(let i=1;i<=100;i+=2)// cách 2 
+
+
+//Bài tập ví dụ: Kiểm tra 1 số n là số nguyên tố hay k?
+
+let count2 = 0;
+for (let i = 1; i<=n; i++)
+if (n%i==0)
+count = count2 + 1
+if (count==2)
+console.log("n là số nguyên tố")
+else console.log("n không phải số nguyên tố")
+
+//cách 2: 
+const n = 2, 
+let count = 0
+for (let i = 2; i < n; i ++)
+if (n%i==0)
+
+//BT2: Kiểm tra từ 1-50 số nào là số nguyên tố hay k? (tự thay i = tên biến khác)
+
+for (j=1; j<=50; j++){
+    let count = 0;
+for (let i = 1; i<=j; i++)
+if (j%i==0)
+count = count+1
+if (count ==2)
+console.log("j là số nguyên tố")
+else console.log("j không phải số nguyên tố")
+}
+
+
