@@ -13,7 +13,7 @@ for (let k of language) {
   console.log(k); // output : vn en de us
 }
 
-// BAI2: In ra màn hình “Hello World” với 4 ngôn ngữ trên, mặc định là Tiếng Anh
+// 2. In ra màn hình “Hello World” với 4 ngôn ngữ trên, mặc định là Tiếng Anh
 for (let lg of language) {
   switch (lg) {
     case "vn":
