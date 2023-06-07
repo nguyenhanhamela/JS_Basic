@@ -1,5 +1,5 @@
 // Viết chương trình tìm số lớn nhất trong 3 số 
-let a = 1, b = 4, c = 10;
+let a = 11, b = 4, c = 10;
 let max = a;
 if (b > max) {
     max = b
