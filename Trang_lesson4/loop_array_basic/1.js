@@ -2,7 +2,7 @@
 
 let A = [90, 89, 80, 77, 68]
 let sum = 0
-for (let i = 0; i < A.length-1; i++){
+for (let i = 0; i < A.length; i++){
     sum += A[i]
 }
 let average = sum / A.length
