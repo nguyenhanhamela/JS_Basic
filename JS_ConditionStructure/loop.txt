@@ -1,0 +1,18 @@
+Lặp nâng cao
+
+    for in:
+        - Là cấu trúc cho phép duyệt qua các trường của 1 object
+        - Output là key và value của object
+        VD: 
+            const person = {
+
+            }
+        For in có thể sử dụng với array, khi đó sẽ trả ra index trong mảng
+
+    for of
+        - Là cấu trúc cho phép duyệt qua các phần tử của mảng (array), chuỗi (string), map (*nói sau)
+        - Output là các phần tử của mảng
+        - For of chuyển dùng để duyệt mảng
+
+    forEach
+        - Thường xuyên được sử dụng

@@ -1,0 +1,19 @@
+Array - iteration
+
+1. Định nghĩa
+- Kiểu mảng thường dùng khi khai báo 1 tập dữ liệu của 1 đối tượng
+- Kiểu mảng thường đi kèm với vòng lặp
+
+2.
+array.forEach(myFunction)
+
+array.map(myFunction)
+
+array.filter(myFunction)
+
+array.reduce(myFunction)
+
+----------------------------------------------
+
+
+
