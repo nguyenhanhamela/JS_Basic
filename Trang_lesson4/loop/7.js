@@ -8,12 +8,10 @@ const currentYear = td.getFullYear()
 const currentMonth = td.getMonth() + 1
 const daysOfMonth = new Date(currentYear, currentMonth, 0).getDate() //lay duoc so ngay trong thang
 
-let days = []
 let oddDays = []
 for (let i = 1; i <= daysOfMonth; i++) {
-    days.push(i) // nhan duoc 1 mang tu 1 ~ ngay cuoi cung
-    if (days[i-1] % 2 === 1) {
-        oddDays.push(days[i-1])
+    if (i % 2 === 1) {
+        oddDays.push(i)
     }
 }
 console.log("Cac ngay le trong thang",currentMonth,"la",oddDays);
