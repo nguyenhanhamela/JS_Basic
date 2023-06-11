@@ -5,6 +5,19 @@
  * Tam giác cân: a = b || b = c || c = a
  */
 
-let a = 5,
-  b = 5,
-  c = 5;
+let a = 3,
+  b = 4,
+  c = 3;
+console.log(`Cho a = ${a}, b = ${b}, c = ${c}`);
+
+if (a + b > c && a + c > b && b + c > a) {
+  if (a == b && b == c && c == a) {
+    console.log("a, b, c la 3 canh cua tam giac deu");
+  } else if (a == b || b == c || c == a) {
+    console.log("a, b, c la 3 canh cua tam giac can");
+  } else {
+    console.log("a, b, c la 3 canh cua tam giac thuong");
+  }
+} else {
+  console.log("a, b, c khong phai 3 canh cua tam giac");
+}
