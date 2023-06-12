@@ -1,7 +1,7 @@
 var x = 9
 // == là so sánh bằng
 
-if(x % 2 == 0)
+if(x % 2 == 0) // phép tính chia lấy dư
 {
     console.log("Số chẵn")
 }
