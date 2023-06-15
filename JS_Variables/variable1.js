@@ -1,3 +1,4 @@
+
 // var greeting = "hey hi";
 // var times = 4;
 
@@ -15,3 +16,6 @@ if (times > 3) {
      console.log(hello); // "say Hello instead"
  }
 console.log(hello); // hello is not defined
+
+var x = 1;
+var x = 2;
