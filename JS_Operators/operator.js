@@ -30,3 +30,8 @@ console.log("n: " + n)
 // console.log("n3" + checkn3);
 
 // console.log(result);
+
+let counter = 10;
+// counter++;
+++counter;
+console.log(counter);
