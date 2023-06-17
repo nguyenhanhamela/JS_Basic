@@ -1,0 +1,39 @@
+Bài 1: viết hàm kiểm tra một số có phải số nguyên tố hay không? hàm này nhận tham số đầu vào là 1 số tự nhiên và trả lại true nếu là số nguyên tố , false nếu không phải 
+
+Bài 2: viết hàm kiểm tra năm nhuận, hàm nhận vào 1 số tự nhiên là năm cần kiểm tra, trả lại true nếu năm đó là năm nhuận, false nếu ngược lại. quy tắc kiểm tra năm nhuận như sau: 
+nếu đó là năm thế kỉ (các năm chia hết cho 100) thì nó chỉ là năm nhuận nếu chia hết cho 400  
+nếu đó không phải năm thế kỉ thì nó là năm nhuận nếu chia hết cho 4 
+
+Bài 3: viết hàm kiểm tra số ngày của 1 tháng, hàm này nhận vào 2 con số đại biểu cho tháng và năm, nó cần trả lại số ngày của tháng đó. ví dụ tháng 1 năm 2000 thì trả lại 31 do tháng 1 có 31 ngày 
+Chú ý: năm nhuận thì tháng 2 có 29 ngày, còn năm không nhuận thì tháng 2 chỉ có 28 ngày. bài 3 cần sử dụng kết quả của bài 2 mới làm chính xác được 
+
+Bài 4: (khó) viết hàm kiểm tra một chuỗi có chứa chuỗi con hay không, hàm này nhận tham số là 1 chuỗi cha và 1 chuỗi con, trả lại true nếu chuỗi con có xuất hiện trong chuỗi cha, nếu ngược lại thì trả lại false. (không được dùng các hàm include của string) 
+
+Bài 5: viết hàm tính ước chung lớn nhất của 2 số, hàm nhận đầu vào là 2 số tự nhiên dương, trả lại ước chung lớn nhất của 2 số đó. 
+x là ước chung của a và b nếu a và b đều chia hết cho x  
+bài này yêu cầu tìm số lớn nhất trong các ước chung 
+
+Bài 6: viết chương trình in ra 1 số dưới dạng tích của các số nguyên tố. ví dụ: 20 = 2 x 2 x 5  
+bài này cần kết quả bài 1 và cách sử dụng vòng lặp thích hợp  
+
+Bài 7: viết hàm so sánh 2 ngày bất kì (mỗi ngày đại biểu bởi 3 con số ngày, tháng, năm). trả lại 0 nếu bằng nhau, -1 nếu ngày thứ nhất nhỏ hơn, 1 nếu ngày thứ nhất lớn hơn 
+
+Bài 8: (khó) viết hàm tính ngày tiếp theo. hàm này nhận vào 3 tham số ngày tháng năm, trả lại một mảng chứa 3 con số đại biểu ngày tháng năm của ngày kế tiếp ví dụ: nhập vào 31, 12, 2009 thì cần return [1, 1, 2010] 
+
+Bài 9: Viết hàm tính khoảng cách 2 điểm bất kì trong mặt phẳng. Biết khoảng cách giữa 2 điểm A(x1, y1) và B (x2, y2) là căn bậc 2 của (x1 - x2)^2 + (y1-y2)^2 
+
+Bài 10: Viết hàm tính chu vi tam giác, biết tọa độ 3 đỉnh. Chu vi là tổng độ dài các cạnh, sử dụng kết quả bài 9 
+
+Bài 11: viết hàm tính diện tích tam giác biết tọa độ 3 đỉnh. Tính bằng công thức heron khi biết độ dài các cạnh. xem công thức ở đây https://vi.wikipedia.org/wiki/C%C3%B4ng_th%E1%BB%A9c_Heron  . Vận dụng bài 9 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
