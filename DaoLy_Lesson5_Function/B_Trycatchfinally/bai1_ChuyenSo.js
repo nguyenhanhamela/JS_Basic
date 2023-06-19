@@ -7,7 +7,7 @@ function chuyenDoi(n){
             return parseInt(n);
         }
     }catch(e){
-        return e;
+        console.log(e)
     }finally{
         console.log("ket thuc");
     }
