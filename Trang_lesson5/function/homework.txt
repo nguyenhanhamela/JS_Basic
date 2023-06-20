@@ -1,10 +1,10 @@
 ✔Bài 1: viết hàm kiểm tra một số có phải số nguyên tố hay không? hàm này nhận tham số đầu vào là 1 số tự nhiên và trả lại true nếu là số nguyên tố , false nếu không phải 
 
-Bài 2: viết hàm kiểm tra năm nhuận, hàm nhận vào 1 số tự nhiên là năm cần kiểm tra, trả lại true nếu năm đó là năm nhuận, false nếu ngược lại. quy tắc kiểm tra năm nhuận như sau: 
+✔Bài 2: viết hàm kiểm tra năm nhuận, hàm nhận vào 1 số tự nhiên là năm cần kiểm tra, trả lại true nếu năm đó là năm nhuận, false nếu ngược lại. quy tắc kiểm tra năm nhuận như sau: 
 nếu đó là năm thế kỉ (các năm chia hết cho 100) thì nó chỉ là năm nhuận nếu chia hết cho 400  
 nếu đó không phải năm thế kỉ thì nó là năm nhuận nếu chia hết cho 4 
 
-Bài 3: viết hàm kiểm tra số ngày của 1 tháng, hàm này nhận vào 2 con số đại biểu cho tháng và năm, nó cần trả lại số ngày của tháng đó. ví dụ tháng 1 năm 2000 thì trả lại 31 do tháng 1 có 31 ngày 
+✔Bài 3: viết hàm kiểm tra số ngày của 1 tháng, hàm này nhận vào 2 con số đại biểu cho tháng và năm, nó cần trả lại số ngày của tháng đó. ví dụ tháng 1 năm 2000 thì trả lại 31 do tháng 1 có 31 ngày 
 Chú ý: năm nhuận thì tháng 2 có 29 ngày, còn năm không nhuận thì tháng 2 chỉ có 28 ngày. bài 3 cần sử dụng kết quả của bài 2 mới làm chính xác được 
 
 Bài 4: (khó) viết hàm kiểm tra một chuỗi có chứa chuỗi con hay không, hàm này nhận tham số là 1 chuỗi cha và 1 chuỗi con, trả lại true nếu chuỗi con có xuất hiện trong chuỗi cha, nếu ngược lại thì trả lại false. (không được dùng các hàm include của string) 
