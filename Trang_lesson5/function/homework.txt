@@ -9,14 +9,14 @@ Chú ý: năm nhuận thì tháng 2 có 29 ngày, còn năm không nhuận thì 
 
 Bài 4: (khó) viết hàm kiểm tra một chuỗi có chứa chuỗi con hay không, hàm này nhận tham số là 1 chuỗi cha và 1 chuỗi con, trả lại true nếu chuỗi con có xuất hiện trong chuỗi cha, nếu ngược lại thì trả lại false. (không được dùng các hàm include của string) 
 
-Bài 5: viết hàm tính ước chung lớn nhất của 2 số, hàm nhận đầu vào là 2 số tự nhiên dương, trả lại ước chung lớn nhất của 2 số đó. 
+✔Bài 5: viết hàm tính ước chung lớn nhất của 2 số, hàm nhận đầu vào là 2 số tự nhiên dương, trả lại ước chung lớn nhất của 2 số đó. 
 x là ước chung của a và b nếu a và b đều chia hết cho x  
 bài này yêu cầu tìm số lớn nhất trong các ước chung 
 
 Bài 6: viết chương trình in ra 1 số dưới dạng tích của các số nguyên tố. ví dụ: 20 = 2 x 2 x 5  
 bài này cần kết quả bài 1 và cách sử dụng vòng lặp thích hợp  
 
-Bài 7: viết hàm so sánh 2 ngày bất kì (mỗi ngày đại biểu bởi 3 con số ngày, tháng, năm). trả lại 0 nếu bằng nhau, -1 nếu ngày thứ nhất nhỏ hơn, 1 nếu ngày thứ nhất lớn hơn 
+✔Bài 7: viết hàm so sánh 2 ngày bất kì (mỗi ngày đại biểu bởi 3 con số ngày, tháng, năm). trả lại 0 nếu bằng nhau, -1 nếu ngày thứ nhất nhỏ hơn, 1 nếu ngày thứ nhất lớn hơn 
 
 Bài 8: (khó) viết hàm tính ngày tiếp theo. hàm này nhận vào 3 tham số ngày tháng năm, trả lại một mảng chứa 3 con số đại biểu ngày tháng năm của ngày kế tiếp ví dụ: nhập vào 31, 12, 2009 thì cần return [1, 1, 2010] 
 
