@@ -41,20 +41,21 @@ driver.get('https://demoqa.com/text-box');
     var actualName = name.split(':')
 
     var email = await driver.findElement(By.id('email')).getText()
-    // console.log(email, '2222222222222')
+    console.log(email, '2222222222222')
     var actualEmail = email.split(':')
 
-    var currentAddress = await driver.findElement(By.xpath('/html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[6]/div/p[3]'))
+    var currentAddress = await driver.findElement(By.css('#output #currentAddress'))
         .getText()
-    // // console.log(currentAddress)
+    console.log(currentAddress)
     var actualCurrentAddress = currentAddress.split(':')
 
-    var permanentAddress = await driver.findElement(By.xpath('/html/body/div[2]/div/div/div[2]/div[2]/div[2]/form/div[6]/div/p[4]'))
+    var permanentAddress = await driver.findElement(By.css('#output #permanentAddress'))
         .getText()
-    // // console.log(permanentAddress)
+    // console.log(permanentAddress)
     var actualPermanebtAddress = permanentAddress.split(':')
 
-    
+
+
     assert.equal(actualName[1], userName)
     assert.equal(actualEmail[1], userEmail)
     assert.equal(actualCurrentAddress[1], currentAddressdata)
